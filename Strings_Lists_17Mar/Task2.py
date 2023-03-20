@@ -11,13 +11,12 @@ for i in range(num):
 
 print(list)
 
-
 list = [1, 17, 0, -2, -42, 67]
-newList = list
+newList = []
 
 for i in range(len(list)):
-   a = min(list)
-   newList.append(a)
-   list.remove(a)
+   j = min(list)
+   newList.append(j)
+   list.remove(j)
 
 print(newList)
